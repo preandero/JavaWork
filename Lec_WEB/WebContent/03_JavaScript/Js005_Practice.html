@@ -14,16 +14,47 @@ table{
 </style>
 </head>
 
-<script src="JS/Js006_Data.js"></script>
+<script src="JS/Js006_Data.js">
+
+
+</script>
 
 <body>
 
 <script>
 
-// TODO
+document.write(typeof x + "<br>");
+document.write("x.items.length = " + x.items.length + "<br>");
+document.write(x.items.length + "개의 매물이 있습니다." + "<br>");
+
+document.write(x.items[0].title + "<br>");
+document.write(x.items[0].item.title + "<br>");
+document.write(x.items[0].item.rent + "<br>");
+document.write(x.items[0].item.deposit + "<br>");
 
 </script>
 
+
+<script>
+
+	document.write("<table>\n");
+
+		document.write("<tr>\n" + "<th> No </th> <th> 타이틀 </th> <th> 월세 </th> <th> 보증금 </th> </tr>\n");
+
+			for(i = 0; i < x.items.length; i++){
+
+				document.write("<tr>\n" + "<td>"+ (i+1)+ " </td> <td>" + x.items[i].item.title +" </td> \
+					<td>"+ x.items[i].item.rent+ "</td> \
+					<td>"+ x.items[i].item.deposit + "</td> </tr>\n")
+
+			}
+
+
+
+
+	document.write("</table>\n");
+
+</script>
 
 </body>
 </html>

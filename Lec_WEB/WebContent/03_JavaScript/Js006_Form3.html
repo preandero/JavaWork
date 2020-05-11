@@ -41,14 +41,35 @@ th, td {padding: 5px;}
 <br>
 
 <!--  TODO : onclick -->
-<button type="button">삭제하기</button><br>
+<!-- 주의 : button을 form 안에 사용시 type 명시 안하면
+	자동적으로 submit 버튼으로 동작함.
+-->
+<button type="button" onclick="chkDelete()">삭제하기</button><br>
 
 
 </form>
 
 <script>
 
-// TODO
+function chkDelete(){
+
+	// name = id 인 element 들을 리턴
+	var e = document.getElementsByName('id');
+
+	var frm = document.forms['frm'];
+
+
+	for(i =0 ; i < e.length; i++){
+
+		if(e[i].checked){
+			return frm.submit();
+		}
+	}
+
+	alert('삭제 할 항목을 체크해주세요');
+	
+
+}
 
 </script>
 
