@@ -176,10 +176,6 @@ div#contentText:hover {
     opacity: 0.8;
     border: 1px solid white;
     animation: infborder 3s infinite;
-
-
-
-
 }
 
 div#contentText:hover>p {

@@ -77,6 +77,32 @@
 					"@dbeaver-use-meta-optimizer@": "false",
 					"@dbeaver-connection-type@": "BASIC"
 				},
+				"auth-model": "oracle_native"
+			}
+		},
+		"oracle_thin-17231edf9bb-6117c5ed953be03b": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "Oracle - xe 3",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "winetree94.io",
+				"port": "1521",
+				"database": "xe",
+				"url": "jdbc:oracle:thin:@//winetree94.io:1521/xe",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-check-schema-content@": "false",
+					"@dbeaver-always-show-dba@": "false",
+					"@dbeaver-always-use-dba-views@": "false",
+					"@dbeaver-meta-use-sys-schema@": "false",
+					"@dbeaver-meta-use-simple-constraints@": "false",
+					"@dbeaver-use-rule-hint@": "false",
+					"@dbeaver-use-meta-optimizer@": "false"
+				},
 				"auth-model": "oracle_native",
 				"handlers": {}
 			}

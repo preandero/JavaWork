@@ -3,11 +3,10 @@ const signInButton = document.getElementById('signIn');
 const container = document.getElementById('container');
 const signInContainer = document.getElementsByClassName('sign-in-container')[0];
 const inputName = document.getElementById("inputName");
-const inputInEmail = document.getElementById("inputInEmail");
+const inputInId = document.getElementById("inputInId");
 const inputInPassword = document.getElementById('inputInPassword');
-const inputUpEmail = document.getElementById('inputUpEmail');
+const inputUpId = document.getElementById('inputUpId');
 const inputUpPassword = document.getElementById('inputUpPassword');
-
 const signInBtn = document.getElementById('signInBtn');
 const signUpBtn = document.getElementById('signUpBtn');
 
@@ -25,23 +24,49 @@ signInButton.addEventListener('click', function() {
 
 
 signInBtn.addEventListener("click", function(){
-    if(inputInEmail.value != ""){
-        if(inputInPassword.value != ""){
-            alert('Login Successful!')
-        location.href="index.html";
-        }
+    if(inputInId.value == ""){
+        window.alert('아이디를 입력하세요.');
+        return;
     }
+        if(inputInPassword.value == ""){
+        window.alert('비밀번호를 입력하세요.');
+        return;
+        }
+    
+    alert('Login Successful!')
+        location.href="index.html";
 
 });
 
 signUpBtn.addEventListener("click", function () {
-    if(inputName.value != ""){
-        if(inputUpEmail.value != ""){
-            if(inputUpPassword.value != ""){
-                alert('SignUp Successful!');
-                location.href="index.html";
-            }
-         }
-     }
+
+    if (inputName.value == '') {
+        window.alert('이름을 입력하세요');
+        return;
+    }
+
+    if (inputUpId.value == "") {
+        window.alert('아이디를 입력하세요.');
+        return;
+    }
+
+    if (inputUpPassword.value == "") {
+        window.alert('비밀번호를 입력하세요.');
+        return;
+    }
+
+    window.alert('SignUp Successful!');
+    location.href = "index.html";
+
+
+
+    // if(inputName.value != ""){
+    //     if(inputUpEmail.value != ""){
+    //         if(inputUpPassword.value != ""){
+    //            
+    //             location.href="index.html";
+    //         }
+    //      }
+    //  }
      
   });
