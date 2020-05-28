@@ -8,29 +8,25 @@ import javax.servlet.http.HttpServletResponse;
 import com.lec.beans.WriteDAO;
 import com.lec.beans.WriteDTO;
 
-public class SelectCommand implements Command {
+public class DeleteCommand implements Command {
 
 	@Override
 	public void execute(HttpServletRequest request, HttpServletResponse response) {
-		
+			
 		
 		WriteDAO dao = new WriteDAO();
-		WriteDTO[] arr = null;
+		int cnt = 0;
 		
 		 int uid = Integer.parseInt(request.getParameter("uid"));
 		
 		
 			try {
-				arr = dao.selectByUid(uid);
+				cnt = dao.deleteByUid(uid);
 				
-				request.setAttribute("select", arr);
+				request.setAttribute("delete", cnt);
 			} catch (SQLException e) {
 				e.printStackTrace();
 			}
-
-		
-	
-		
 		
 	}
 

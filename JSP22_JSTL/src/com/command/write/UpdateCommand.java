@@ -8,30 +8,28 @@ import javax.servlet.http.HttpServletResponse;
 import com.lec.beans.WriteDAO;
 import com.lec.beans.WriteDTO;
 
-public class SelectCommand implements Command {
+public class UpdateCommand implements Command {
 
 	@Override
 	public void execute(HttpServletRequest request, HttpServletResponse response) {
-		
-		
 		WriteDAO dao = new WriteDAO();
-		WriteDTO[] arr = null;
+		int cnt = 0;
 		
-		 int uid = Integer.parseInt(request.getParameter("uid"));
-		
+		int uid = Integer.parseInt(request.getParameter("uid"));
+		String subject = request.getParameter("subject");
+		String content = request.getParameter("content");
 		
 			try {
-				arr = dao.selectByUid(uid);
+				cnt = dao.update(uid, subject, content);
 				
-				request.setAttribute("select", arr);
+				request.setAttribute("update", cnt);
 			} catch (SQLException e) {
 				e.printStackTrace();
 			}
 
 		
-	
-		
-		
 	}
 
-}
+	}
+
+
