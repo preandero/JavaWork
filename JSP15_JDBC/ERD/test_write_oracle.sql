@@ -22,7 +22,7 @@ CREATE TABLE test_write
 
 --시퀀스작성
 CREATE SEQUENCE TEST_WRITE_SEQ;
-
+DROP SEQUENCE TEST_WRITE_SEQ;
 
 --생성확인
 SELECT * FROM test_write;
