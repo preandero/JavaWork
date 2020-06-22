@@ -13,7 +13,14 @@ public class AopMain01 {
 				new GenericXmlApplicationContext("classpath:aopCtx1.xml");
 		System.out.println("ctx생성");
 
-		// TODO
+		Service service1 = ctx.getBean("Service1",Service.class);
+		Service service2 = ctx.getBean("Service2",Service.class);
+
+		service1.doAction();
+		System.out.println();
+		service2.doAction();
+		System.out.println();
+
 		
 		ctx.close();
 		System.out.println("Main 종료");

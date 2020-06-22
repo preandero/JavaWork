@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+        <bean id="scoreA" class="com.lec.spring.Score">
+            <constructor-arg value="28"/>
+            <constructor-arg value="58"/>
+            <constructor-arg value="78"/>
+            <constructor-arg value="망함"/>
+        </bean>
+
+
+        <bean id="studentA" class="com.lec.spring.Student">
+
+            <constructor-arg value="수영"/>
+            <constructor-arg value="27"/>
+            <constructor-arg ref="scoreA"/>
+        </bean>
+
+    <bean id ="studentB" class="com.lec.spring.Student">
+
+        <property name="name" value="누구냐"/>
+        <property name="age" value="28"/>
+        <property name="score" ref="scoreA"/>
+
+    </bean>
+
+
+
+</beans>

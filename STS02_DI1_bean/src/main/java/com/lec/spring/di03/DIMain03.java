@@ -21,6 +21,35 @@ public class DIMain03 {
         score = (Score) ctx.getBean("myScore2");
         System.out.println(score);
 
+        score = (Score) ctx.getBean("myScore3");
+        System.out.println(score);
+
+        score = (Score) ctx.getBean("myScore4");
+        System.out.println(score);
+
+        score = (Score) ctx.getBean("myScore5");
+        System.out.println(score);
+
+        score = (Score) ctx.getBean("myScore6");
+        System.out.println(score);
+
+        score = (Score) ctx.getBean("myScore7");
+        System.out.println(score);
+
+        score = (Score) ctx.getBean("myScore8");
+        System.out.println(score);
+
+
+        System.out.println("생성된 빈의 개수: " + ctx.getBeanDefinitionCount());
+
+        for(int i = 1; i <= ctx.getBeanDefinitionCount(); i++){
+            System.out.println(ctx.getBean("myScore" + i));
+        }
+
+        ctx.close();
+
+
+
     }
 
 

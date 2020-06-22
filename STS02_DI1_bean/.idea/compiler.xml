@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="STS02_DI1_bean" target="1.5" />
+      <module name="STS02_DI1_bean" target="6" />
     </bytecodeTargetLevel>
   </component>
 </project>

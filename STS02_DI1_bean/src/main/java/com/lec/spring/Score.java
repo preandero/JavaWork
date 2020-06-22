@@ -1,5 +1,8 @@
 package com.lec.spring;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class Score {
 	int kor; // 국어점수
 	int eng; // 영어점수
@@ -19,6 +22,13 @@ public class Score {
 		this.eng = eng;
 		this.math = math;
 		this.comment = comment;
+	}
+
+	public Score(int [] arr){
+		System.out.printf("Score(%s)생성\n", Arrays.toString(arr));
+		this.kor = arr[0];
+		this.eng = arr[1];
+		this.math = arr[2];
 	}
 
 	public int getKor() {
@@ -51,6 +61,13 @@ public class Score {
 
 	public void setComment(String comment) {
 		this.comment = comment;
+	}
+
+
+	public void setScore(List<Integer> scores){
+		this.kor = scores.get(0);
+		this.eng = scores.get(1);
+		this.math = scores.get(2);
 	}
 
 
