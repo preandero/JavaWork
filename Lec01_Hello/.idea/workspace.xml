@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b0482f22-3b32-479d-91e0-1d9ffd27e543" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/.idea/artifacts/STS09_MVC_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/.idea/artifacts/sts09_mvc_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/.idea/libraries/Maven__junit_junit_4_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/.idea/libraries/Maven__log4j_log4j_1_2_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/.idea/libraries/Maven__org_aspectj_aspectjrt_1_6_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_6_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/.idea/libraries/Maven__org_springframework_spring_aop_3_1_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/.idea/libraries/Maven__org_springframework_spring_asm_3_1_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/.idea/libraries/Maven__org_springframework_spring_beans_3_1_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/.idea/libraries/Maven__org_springframework_spring_context_3_1_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/.idea/libraries/Maven__org_springframework_spring_context_support_3_1_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/.idea/libraries/Maven__org_springframework_spring_core_3_1_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/.idea/libraries/Maven__org_springframework_spring_expression_3_1_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/.idea/libraries/Maven__org_springframework_spring_web_3_1_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/.idea/libraries/Maven__org_springframework_spring_webmvc_3_1_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/STS09_MVC.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../STS09_MVC/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../STS09_MVC/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/src/main/webapp/WEB-INF/views/img/block_icon_512_512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../STS09_MVC/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/src/main/webapp/hello.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../STS09_MVC/src/main/webapp/hello.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/target/sts09_mvc-1.0.0-BUILD-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/target/sts09_mvc-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/target/sts09_mvc-1.0.0-BUILD-SNAPSHOT/WEB-INF/spring/appServlet/servlet-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/target/sts09_mvc-1.0.0-BUILD-SNAPSHOT/WEB-INF/spring/root-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/target/sts09_mvc-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS09_MVC/target/sts09_mvc-1.0.0-BUILD-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1dfGlkWog6UNBRqQxpMcS5R1kmJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0482f22-3b32-479d-91e0-1d9ffd27e543" name="Default Changelist" comment="" />
+      <created>1592808886386</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592808886386</updated>
+      <workItem from="1592808899586" duration="33000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="575" y="282" key="NewModule_or_Project.wizard" timestamp="1592808926942">
+      <screen x="0" y="23" width="1920" height="1105" />
+    </state>
+    <state x="575" y="282" key="NewModule_or_Project.wizard/0.23.1920.1105@0.23.1920.1105" timestamp="1592808926942" />
+  </component>
+</project>
