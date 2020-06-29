@@ -10,6 +10,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
 
 /**
  * Handles requests for the application home page.
@@ -39,6 +40,37 @@ public class HomeController {
 	@RequestMapping(value = "/common")   //  /common 으로 요청이 오면
 	public String cccmmm() {        // cccmmm() 핸들러가 수행되고.
 		return "comn";     // -->  /WEB-INF/views/comn.jsp   를 리턴하여 response 되게 한다.
+	}
+
+	@RequestMapping(value = "/member/search")
+	public String searchMember() {
+		return "member/search";
+	}
+
+	@RequestMapping(value = "/member/infoView")
+	public String infoMember(Model model){
+		model.addAttribute("mbAge", 30);
+		model.addAttribute("mbName", "홍길동");
+		return "member/info";
+	}
+
+	@RequestMapping(value = "/member/find")
+	public ModelAndView findMember(){
+		ModelAndView mv = new ModelAndView();
+
+		mv.addObject("mbName", "다스베이더");
+		mv.addObject("mbDate","2020/06/22");
+
+
+		mv.setViewName("member/find");
+
+		return mv;
+	}
+
+
+	@RequestMapping(value = "/member/*.do")
+	public String doMember() {
+		return "member/doMember";
 	}
 	
 	

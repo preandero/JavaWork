@@ -31,6 +31,7 @@
 	href="${pageContext.request.contextPath }/CSS/sts_common.css">
 </head>
 <body>
+<hr>
 <div class="sts">
 <b>Servlet</b><br>
 request URI : <span><%= servlet_request_uri %></span><br>
