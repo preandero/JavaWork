@@ -22,7 +22,7 @@ public class BUpdateCommand implements BCommand {
 //		model.addAttribute("result", cnt);
 
 		IWriteDAO dao = C.sqlSession.getMapper(IWriteDAO.class);
-		model.addAttribute("result", dao.update(dto.getSubject(), dto.getContent(), dto.getUid()));
+		model.addAttribute("result", dao.update(dto.getUid(),dto));
 		
 		
 	}
